@@ -1,0 +1,14 @@
+{
+  "version": "7.0",
+  "release_date": "2026-08-23",
+  "counties": [
+    "Cumberland",
+    "York",
+    "Lancaster",
+    "Perry",
+    "Lebanon",
+    "Adams",
+    "Franklin"
+  ],
+  "title": "South-Central Pennsylvania Public Accountability Graph"
+}
