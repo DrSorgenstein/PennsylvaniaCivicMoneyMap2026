@@ -1,5 +1,5 @@
 {
-  "version": "7.0",
+  "version": "7.1",
   "release_date": "2026-08-23",
   "counties": [
     "Cumberland",
@@ -10,5 +10,11 @@
     "Adams",
     "Franklin"
   ],
-  "title": "South-Central Pennsylvania Public Accountability Graph"
+  "title": "South-Central Pennsylvania Public Accountability Graph",
+  "features": [
+    "LANDEX Integration Hub",
+    "County LANDEX status matrix",
+    "CSV land-record importer",
+    "Automation/API readiness architecture"
+  ]
 }
