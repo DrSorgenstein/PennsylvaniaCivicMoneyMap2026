@@ -4,6 +4,15 @@ A static, nonpartisan GitHub Pages site for the November 3, 2026 Pennsylvania ge
 
 This repository was imported from the `main` history of [SouthCentralPAPublicAccountabilityGraph](https://github.com/DrSorgenstein/SouthCentralPAPublicAccountabilityGraph) on September 24, 2026 to give the statewide election project its own Pages URL. It is an independent copy, rather than a GitHub-network fork under the same account. Original regional research files remain in the repository; the root `index.html`, `app.js`, and new `style.css` power this site.
 
+## Analyst features
+
+- Published Jan. 5 and Aug. 3 registration snapshots and signed change by broad party group. These counts include active and inactive registration records; they are not campaign receipts.
+- 2026 Pennsylvania state campaign finance reporting clock with report coverage end dates and filing deadlines.
+- Source register and a six-point reconciliation checklist. State and federal finance records are deliberately kept apart.
+- A local evidence worksheet for up to 500 user-entered transactions, with a source URL per row and CSV export. It starts empty, stores only in that visitor's browser and never transmits entries to a server. The displayed amount sums heterogeneous row types and must not be read as net fundraising. CSV text fields are guarded against spreadsheet formulas.
+
+No candidate finance totals or claimed donor-to-candidate edges are published until transaction pairs have been reconciled against primary reports. The candidate cards remain a statewide sample and link to records rather than asserting unverified roll-call votes.
+
 ## Publish
 
 In repository Settings → Pages, choose **Deploy from a branch**, branch **main**, folder **/(root)**, then Save. Review the deployed URL shown in settings.
@@ -20,7 +29,10 @@ The flow graphic is a reporting model, not an allegation or a transaction graph.
 - Voter registration methodology: https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/voting-and-election-statistics
 - Registration snapshot: https://www.pa.gov/agencies/dos/newsroom/pa-routine-list-maintenance-helps-ensure-accurate-voter-rolls
 - State campaign finance: https://www.pa.gov/agencies/dos/programs/voting-and-elections/campaign-finance
+- State reporting calendar: https://www.pa.gov/agencies/dos/programs/voting-and-elections/campaign-finance/reporting-dates
+- State 2026 bulk export: https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/campaign-finance-data
 - FEC elections: https://www.fec.gov/data/elections/
+- FEC congressional reporting schedule: https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/congressional-pre-election-reporting-dates-2026/
 - General Assembly: https://www.palegis.us/
 
 The named candidates were cross-checked against the 2026 primary results and contemporary reporting; check the state candidate database for a final certified list. This site does not assert specific roll-call votes, donor amounts, or candidate-to-candidate policy comparisons without a matching primary record.
