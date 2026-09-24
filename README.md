@@ -1,46 +1,26 @@
-# South-Central Pennsylvania Public Accountability Graph 7.1
+# PA Civic Money Map
 
-GitHub Pages-ready regional civic research package covering Cumberland, York, Lancaster, Perry, Lebanon, Adams and Franklin Counties.
+A static, nonpartisan GitHub Pages site for the November 3, 2026 Pennsylvania general election. No build step or API key is needed.
 
-## Deploy
-1. Create a public GitHub repository.
-2. Upload every file in this folder to the repository root.
-3. Commit to `main`.
-4. Settings → Pages → Deploy from branch → `main` → `/ (root)`.
+This repository was imported from the `main` history of [SouthCentralPAPublicAccountabilityGraph](https://github.com/DrSorgenstein/SouthCentralPAPublicAccountabilityGraph) on September 24, 2026 to give the statewide election project its own Pages URL. It is an independent copy, rather than a GitHub-network fork under the same account. Original regional research files remain in the repository; the root `index.html`, `app.js`, and new `style.css` power this site.
 
-## New in 7.1
-- Seven-county selector and comparison view
-- Separate county commissioner, planning, elections/campaign, contracts and land nodes
-- Verified current commissioner base nodes for six newly added counties
-- York–Adams documented joint-governance node
-- Franklin County 2026 data-center development-standards node
-- Regional source register
-- County-filtered ledger and CSV export
-- Cumberland’s deeper PAX-1 / governance / campaign-finance dataset retained
+## Publish
 
-## Safeguard
-A connection, contribution, appointment or favorable decision does not establish corruption or quid pro quo. Unverified research framework edges remain Grade D until supported by source records.
+In repository Settings → Pages, choose **Deploy from a branch**, branch **main**, folder **/(root)**, then Save. Review the deployed URL shown in settings.
 
+## Editorial notes
 
-## LANDEX Integration Hub
+The flow graphic is a reporting model, not an allegation or a transaction graph. To add numeric funding edges, reconcile original contribution and expenditure records by committee identifier, date, reporting period, amount, recipient and filing URL. Federal House reporting belongs to the FEC; state offices to Pennsylvania; local filings may live with counties. Never infer a contribution to a candidate from a donor's contribution to a party. Candidate cards are a statewide sample, not a complete ballot. Verify candidate status and campaign links before publication and after ballot changes. The `app.js` array controls the candidate cards.
 
-Version 7.1 adds:
+## Sources (accessed 2026-09-24)
 
-- county-by-county LANDEX availability
-- official land-record source links
-- LANDEX Record Alert links where verified
-- API/webhook readiness guidance
-- Zapier/Make integration architecture
-- CSV/manual-import fallback
-- downloadable `landex-import-template.csv`
-- browser-side CSV preview
-- `LANDEX_INTEGRATION.md`
-- `landex-config.json`
+- Election dates and offices: https://www.pa.gov/agencies/dos/newsroom/secretary-reminds-eligible-pennsylvanians-of-oct--19-registratio
+- Registration and mail ballot deadlines: https://www.pa.gov/agencies/vote/elections/upcoming-elections
+- Candidate database: https://www.pavoterservices.pa.gov/electioninfo/ElectionInfo.aspx
+- Voter registration methodology: https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/voting-and-election-statistics
+- Registration snapshot: https://www.pa.gov/agencies/dos/newsroom/pa-routine-list-maintenance-helps-ensure-accurate-voter-rolls
+- State campaign finance: https://www.pa.gov/agencies/dos/programs/voting-and-elections/campaign-finance
+- FEC elections: https://www.fec.gov/data/elections/
+- General Assembly: https://www.palegis.us/
 
-### Important API caveat
-
-This release does **not** assert that LANDEX provides a public API or webhook. API/webhook integration is displayed as a future/conditional route that requires documented authorization from LANDEX / Optical Storage Solutions.
-
-### GitHub Pages security
-
-Do not place API credentials in `app.js`, `data.js`, GitHub Pages settings, or any public repository file. A future API integration should run server-side or through a private automation credential store.
+The named candidates were cross-checked against the 2026 primary results and contemporary reporting; check the state candidate database for a final certified list. This site does not assert specific roll-call votes, donor amounts, or candidate-to-candidate policy comparisons without a matching primary record.
